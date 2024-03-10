@@ -8,7 +8,7 @@ As a Database Developer, my primary responsibility was to design and implement e
 
 ## Technologies Used
 - **Back-end**: Java (JSP)
-- **Front-end**: HTML, CSS
+- **Front-end**: HTML, CSS , JavaScript
 - **Database**: MySQL
 
 ## Highlights
@@ -17,6 +17,6 @@ As a Database Developer, my primary responsibility was to design and implement e
 - Enhanced understanding of full-stack development and teamwork.
 
 ## How to Use
-1. Clone the repository: `git clone https://github.com/sakshi5507/Banking-web-Application`
+1. Clone the repository: `https://github.com/sakshi5507/Banking-web-Application.git`
 2. Set up the database using the provided SQL scripts.
 3. Deploy the application to a web server.
