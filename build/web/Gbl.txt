@@ -1,0 +1,54 @@
+//qwersfdffdffffffgfhghlkfllkfkdasdfghjjjkkkll;\\asdfghjkl;;'\987tyuiopppp[[]]]]]]]]]]]]]]
+ create table account 
+(
+	accno varchar(20),
+	cusname varchar(20),
+	cusfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int
+
+);
+
+insert into account values('A001','ADMIN','FADMIN','01.01.2000','Male','20.07.2023','JABALPUR',99999);
+
+ create table transactionbank 
+(
+	accountno varchar(20),
+	ref varchar(20),
+	
+	dotrans varchar(20),
+	transid varchar(20),
+	depamount int,
+	wdrwamount int,
+	netbal int
+
+);
+
+
+ create table transactionbank (accountno varchar(20), ref varchar(20), dotrans varchar(20), transid varchar(20), depamount int, wdrwamount int, netbal int );
+
+ create table account 
+(
+	accno varchar(20),
+	cusname varchar(20),
+	cusfname varchar(20),
+	dob varchar(20),
+	gender varchar(20),
+	accopdate varchar(20),
+	address varchar(20),
+	contactno int,
+        role varchar(20),
+        password varchar(20),
+        sques varchar(20),
+        sans varchar(20)
+
+);
+
+insert into account values('A001','ADMIN','FADMIN','01.01.2000','Male','20.07.2023','JABALPUR',99999,'admin','ADMINADMIN','BirthPlace','INDIA');
+
+
+<tr><td>Set New Password</td><td><input type="text" name="newpass"></td></tr>
+<tr><td>confirm Password</td><td><input type="text" name="cnfpass"></td></tr>
